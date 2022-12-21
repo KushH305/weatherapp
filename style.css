@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Unbounded', cursive;
+    font-size: 120%;
+    background: #222;
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+}
+
+.card {
+    max-width: 420px;
+    border-radius: 30px;
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    width: 100%;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border:  none;
+    height: 39px;
+    width: 39px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    font-size: 105%;
+    width: calc(100% - 50px);
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em; 
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.humidity {
+    margin-bottom: 10px;
+}
+
+.weather.loading {
+    visibility: hidden;  
+    max-height: 20px;
+    position: relative; 
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.socialmedia {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IGicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #eb537c;
+    transition: color 0.2s;
+}
+
+.IGicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #a23322;
+    transition: color 0.3s;
+}
+
+.GHicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(146, 139, 139);
+}
+
+.GHicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #5a5757;
+}
+
+.LIicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #5985C4;
+}
+
+.LIicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #0072b1;
+}
